@@ -1,0 +1,23 @@
+.comein__conteiner{
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+.comein__form input, .comein__form button{
+    display: block;
+    margin: 20px auto;
+}
+.comein__input{
+    width: 800px;
+    height: 35px;
+    font-size: 21px;
+    padding: 10px;
+}
+.comein-button{
+    width: 825px;
+    height: 45px;
+    cursor: pointer;
+}
+.description{
+    text-align: center;
+    
+}

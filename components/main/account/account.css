@@ -1,0 +1,58 @@
+.account__header{
+    display: flex;
+    align-items: center;
+}
+.account__img img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.account__info{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.articleCatalog{
+    display: flex;
+    align-items: center;
+}
+.btn_subscribers{
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+    border: 3px solid red;
+    padding: 0px 10px 5px 10px;
+    border-radius: 10px; 
+    margin: 0;
+    cursor: pointer;
+    background-color: none;
+    transition: 50ms ease;
+}
+.btn_subscribers-active{
+    background-color: red;
+    color: #fff;
+}
+.btn_subscribers:hover{
+    background-color: red;
+    color: #fff;    
+}
+/* MYACCOUNT */
+.main__myAccount{
+    margin: 0 auto;
+    text-align: center;
+}
+.account__img{
+    margin-left: 30px;
+}
+.myAccount__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MyAccount__sections{
+    margin: 15px;
+    cursor: pointer;
+}
+.myAccount__setting{
+    cursor: pointer;
+}

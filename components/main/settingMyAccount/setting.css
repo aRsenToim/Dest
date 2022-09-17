@@ -1,0 +1,17 @@
+.main__settingBody{
+    margin-top: 20px;
+}
+.outAccount_button{
+    font-size: 18px;
+    color: red;
+    border: 3px solid red;
+    padding: 0px 10px 5px 10px;
+    border-radius: 5px; 
+    cursor: pointer;
+    background-color: none;
+    transition: 50ms ease;
+}
+.outAccount_button:hover{
+    color: #fff;
+    background-color: red;
+}

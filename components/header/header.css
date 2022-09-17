@@ -1,0 +1,44 @@
+.headerbody{
+    background: #3C4852;
+}
+.header__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.header__logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__nav li{
+    margin-right: 15px;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+.header__button{
+    padding: 8px 30px;
+    border: 1px solid #FFCC80;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.5s ease;
+}
+.header__button-active{
+    background-color: #FFCC80 !important;
+    color:#3C4852 !important;
+}
+.header__button:hover{
+    background-color: #FFCC80;
+    color:#3C4852;
+}
+.textActive{
+    color: #FFCC80 !important;
+}
